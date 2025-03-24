@@ -1,4 +1,3 @@
-
 {
   "name": "3d_by_me",
   "private": true,
@@ -6,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-  "build": "chmod +x node_modules/.bin/vite && vite build",
-
+    "build": "chmod +x node_modules/.bin/vite && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "node index.js",
@@ -42,11 +40,9 @@
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
-    "vite": "^4.5.9"
+    "vite": "^6.2.3"
   },
   "engines": {
-  "node": "16.x"
+    "node": "16.x"
+  }
 }
-
-}
-
